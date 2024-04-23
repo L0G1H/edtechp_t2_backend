@@ -1,15 +1,24 @@
-import get_listening
-import get_ordering
+import language_exercises
 
 
-sentences_client = get_ordering.Ordering_Client()
+generator = language_exercises.Exercise_Generator()
 
-exercise = sentences_client.get_ordering_exercise()
+listening = generator.get_listening_exercise()
 
-audio_client = get_listening.Listening_Client()
+print(listening)
 
-exercise_2 = audio_client.get_listening_exercise()
+ordering = generator.get_ordering_exercise()
 
-print(exercise)
+print(ordering)
 
-print(exercise_2)
+fill = generator.get_fill_the_blank()
+
+print(fill)
+
+translate_lt = generator.get_translate(True)
+
+print(translate_lt)
+
+translate_ua = generator.get_translate(False)
+
+print(translate_ua)
