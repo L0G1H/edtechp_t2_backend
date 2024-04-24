@@ -1,6 +1,7 @@
 import os
 from google.cloud import texttospeech_v1
 import random
+import base64
 
 
 class Exercise_Generator:
@@ -48,7 +49,9 @@ class Exercise_Generator:
             audio_config=audio_config
         )
 
-        return {"type": "listening", "question": response.audio_content, "options": None, "answer": exercise}
+        audio_content_base64 = base64.b64encode(response.audio_content).decode("utf-8")
+
+        return {"type": "listening", "question": exercise, "options": None, "answer": audio_content_base64}
 
     def get_ordering_exercise(self) -> dict:
         exercise = random.choice(self.untranslated_sentences).split()
@@ -66,7 +69,7 @@ class Exercise_Generator:
 
         random.shuffle(options)
 
-        return {"type": "fill the blank", "question": exercise[0], "options": options, "answer": exercise[1]}
+        return {"type": "fill_the_blank", "question": exercise[0], "options": options, "answer": exercise[1]}
 
 
     def get_translate(self, answer_in_lt: bool = True) -> dict:
@@ -91,4 +94,4 @@ class Exercise_Generator:
             suffix = "ua"
 
 
-        return {"type": f"translate {suffix}", "question": question, "options": options, "answer": answer}
+        return {"type": f"translate_{suffix}", "question": question, "options": options, "answer": answer}
