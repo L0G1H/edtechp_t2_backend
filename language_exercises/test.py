@@ -17,3 +17,6 @@ print(translate_lt)
 
 translate_ua = generator.get_translate(False)
 print(translate_ua)
+
+with open("output.mp3", "wb") as out:
+    out.write(listening["question"])

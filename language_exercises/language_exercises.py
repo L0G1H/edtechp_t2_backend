@@ -49,9 +49,7 @@ class Exercise_Generator:
             audio_config=audio_config
         )
 
-        audio_content_base64 = base64.b64encode(response.audio_content).decode("utf-8")
-
-        return {"type": "listening", "question": exercise, "options": None, "answer": audio_content_base64}
+        return {"type": "listening", "question": response.audio_content, "options": None, "answer": exercise}
 
     def get_ordering_exercise(self) -> dict:
         exercise = random.choice(self.untranslated_sentences).split()
