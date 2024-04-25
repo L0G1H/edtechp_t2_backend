@@ -1,5 +1,20 @@
-Aš ėjau _ perėją.|per|šalia|netoli|Andrius
-Manęs tėvai nerado _.|skalbimo mašinoje|sūryje|Andriuje|brolio
-Ar galiu _ mokytojos?|paklausti|Andriaus|nuprausti|pagelbėti
-Kodėl tavo _ nėra?|tėvo|mamo|dedo|teto
-Aš norėčiau turėti _.|sraigtasparį|tėvą|tris|gruzą
+Ar tu _ savo darbą?|mėgsti|bijo|klausi|norėtum
+Aš negaliu rasti savo _.|telefono|telefonas|telefone|telefoną
+Ji labai gerai _ gitarą.|groja|dainuoja|rašo|piešia
+Aš labai _ skaityti knygas.|mėgstu|geriu|mano|valgau
+Rytą aš visada _ kavą.|geriu|valgau|verdu|miegau
+Kiek _ metų tavo broliui?|yra|turi|gyvena|norėtum
+Ar tau _ mano pagalbos?|reikia|moki|žinai|supratai
+Aš vakar _ savo kambaryje.|buvau|ateina|užmiršo|daro
+Kur _ mano raktai?|yra|čia|laikiausi|užsidėjau
+Mano mama labai _ maistą.|mėgsta|gamina|sako|plaukia
+Kur _ mano knygos?|dingo|čia|slėpiausi|pirkau
+Mano draugas visada _ man pagalbą.|suteikia|gauna|meta|prašo
+Ar jūs _ šį filmą?|žiūrėjote|davėte|pamiršote|dovanojote
+Mano brolis labai _ futbolą.|mėgsta|rašo|sako|meta
+Aš _ savo namo šeimininkė.|esu|gyvenu|metu|norėčiau
+Ar jūs _ mokykloje?|esate|ateinate|važiuojate|matėte
+Ar tu _ vakarienę?|valgai|bėgi|norėtum|ateini
+Jūsų draugė _ šokoladą.|mėgsta|verčia|meta|gyvena
+Mano tėvas _ kiekvieną rytą.|skaito|mėgsta|šokoladą|meta
+Ar tu _ savo pažadų?|laikaisi|sako|jauti|galvoji

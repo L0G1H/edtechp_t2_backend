@@ -9,5 +9,5 @@ Here is supposed to lie M4A1-S | Masterpiece.
 - [x] Translating exercise. Output word with 4 translate options.
 - [x] Fill the blank. Output a sentence where only 1 word from 4 options fits.
 - [x] Make a flask server
-- [ ] Get a ton of data.
+- [x] Get more data.
 - [ ] Maybe more exercises
